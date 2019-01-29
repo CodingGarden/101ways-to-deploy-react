@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "alias": ["101ways-static.now.sh"],
+  "builds": [
+    { "src": "**/*", "use": "@now/static" }
+  ],
+  "routes": [
+    {"src": "^/static/(.*)", "dest": "/static/$1"},
+    {"src": "^/favicon.ico", "dest": "/favicon.ico"},
+    {"src": "^/asset-manifest.json", "dest": "/asset-manifest.json"},
+    {"src": "^/manifest.json", "dest": "/manifest.json"},
+    {"src": "^/service-worker.js", "headers": {"cache-control": "s-maxage=0"}, "dest": "/service-worker.js"},
+    {"src": "^/precache-manifest.(.*)", "dest": "/precache-manifest.$1"},
+    {"src": "^/(.*)", "dest": "/index.html"}
+  ]
+}
