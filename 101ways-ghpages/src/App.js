@@ -25,7 +25,7 @@ class App extends Component {
           <Route path="*" component={NotFound} />
         </Switch>
         <section>
-          <img className="counter" src="https://ht-ct.now.sh/counters/d1cb34d4-ec7d-40c7-bd38-e98932121ec2" alt="views" />
+          <img className="counter" src="https://ht-ct.now.sh/counters/ghpages" alt="views" />
         </section>
       </div>
     );
