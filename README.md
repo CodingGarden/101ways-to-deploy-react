@@ -24,7 +24,7 @@ Deploy a react (static) website with netlify drop, surge.sh, now.sh, github page
   * https://surge.sh/help/getting-started-with-surge
   * https://surge.sh/help/adding-a-custom-domain
   * https://surge.sh/help/adding-a-200-page-for-client-side-routing
-* [ ] now.sh
+* [x] now.sh
   * [x] static
     * https://zeit.co/examples/static/
     * https://zeit.co/docs/v2/deployments/official-builders/static-now-static
@@ -32,14 +32,16 @@ Deploy a react (static) website with netlify drop, surge.sh, now.sh, github page
   * [x] static builder
     * https://zeit.co/examples/create-react-app
     * https://zeit.co/docs/v2/deployments/official-builders/static-build-now-static-build/
-* [ ] github pages
+* [x] github pages
   * https://hugogiraudel.com/2017/05/13/using-create-react-app-on-netlify/
+* [x] heroku
+  * https://github.com/mars/create-react-app-buildpack
+
+## Next time...
 * [ ] netlify - github auto deploy
-* [ ] firebase
+* [ ] firebase hosting
   * https://firebase.google.com/docs/hosting/quickstart#install_the_firebase_cli
   * https://firebase.google.com/docs/hosting/deploying
 * [ ] ftp / shared hosting (namecheap)
-* [ ] heroku
-  * https://github.com/mars/create-react-app-buildpack
 * [ ] Amazon S3
   * https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html
